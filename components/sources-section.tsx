@@ -9,7 +9,7 @@ const sources = [
   {
     title: "Silicon Zoo — Chip Art Archive",
     url: "https://en.wikipedia.org/wiki/Silicon_Zoo",
-    description: "Comprehensive archive of silicon graffiti and chip art specimens",
+    description: "The big archive of silicon graffiti — tons of chip art specimens cataloged in one place",
   },
   {
     title: "Chip Art (Silicon Graffiti) — Wikipedia",
@@ -45,8 +45,7 @@ export function SourcesSection() {
             </h2>
           </div>
           <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-            Our research draws from primary sources, community documentation, and historical archives.
-            We verify all information across multiple sources to ensure accuracy.
+            Here's where we got our info. Forum threads, historical archives, and the people who actually found the thing.
           </p>
           <ol className="space-y-4">
             {sources.map((source, index) => (

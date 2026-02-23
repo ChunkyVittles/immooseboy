@@ -8,42 +8,27 @@ export function AboutAuthor() {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed mb-4">
-              I Am Moose Boy is a dedicated resource for technology historians, vintage mobile phone collectors, and
-              anyone fascinated by the hidden artistry in semiconductor design. This site was created by technology
-              enthusiasts with deep appreciation for silicon graffiti and the Nokia 5190's cultural impact.
+              This site exists because someone fell down the Moose Boy rabbit hole and couldn't stop digging. We're collectors, tinkerers, and tech history nerds who think the hidden stories inside our devices are worth telling. The Nokia 5190 was already iconic — finding out it had a secret drawing inside made it legendary.
             </p>
 
-            <h3 className="text-xl font-bold mb-3 mt-6">Our Mission</h3>
+            <h3 className="text-xl font-bold mb-3 mt-6">Why We Made This</h3>
             <p className="text-lg leading-relaxed mb-4">
-              We aim to preserve and share the remarkable story of Moose Boy—one of tech history's most beloved Easter
-              eggs. Through thorough research and community collaboration, we document the 2022 discovery hunt, the
-              Nokia 5190's significance, and the dying art of silicon graffiti.
+              The Moose Boy story is scattered across old forum posts, TikTok videos, and Instagram accounts. We wanted one place that had everything — the history, the discovery hunt, the how-to guide, and the context about why silicon graffiti matters. So we built it.
             </p>
 
-            <h3 className="text-xl font-bold mb-3 mt-6">Our Research</h3>
+            <h3 className="text-xl font-bold mb-3 mt-6">How We Research</h3>
             <p className="text-lg leading-relaxed mb-4">
-              Our content is built on extensive research from primary sources including the 2022 discovery community
-              discussions, historical documentation about the Nokia 5190, semiconductor industry history (including the
-              Semiconductor Chip Protection Act of 1984), and insights from chip collectors and technology historians.
-              We carefully verify all information to provide accurate, comprehensive coverage of this fascinating topic.
+              Everything here is sourced from the 2022 discovery community discussions, historical Nokia documentation, semiconductor industry records (including the Semiconductor Chip Protection Act of 1984), and conversations with chip collectors and tech historians. We cross-check everything and update the site when new info comes in.
             </p>
 
             <h3 className="text-xl font-bold mb-3 mt-6">Affiliate Transparency</h3>
             <p className="text-lg leading-relaxed">
-              We participate in the eBay Partner Network to help collectors find authentic Nokia 5190 phones. When you
-              purchase through our affiliate links, we may earn a small commission at no additional cost to you. This
-              helps us maintain the site and continue researching technology history. We only link to products we
-              believe are authentic and valuable to collectors—our editorial content is never influenced by affiliate
-              relationships.
+              We're part of the eBay Partner Network. If you buy something through our links, we get a small commission — doesn't cost you anything extra. It helps keep the site running. We only link to stuff that's actually relevant to the Moose Boy hunt. Our editorial content isn't influenced by affiliate relationships, period.
             </p>
 
             <h3 className="text-xl font-bold mb-3 mt-6">Editorial Standards</h3>
             <p className="text-lg leading-relaxed">
-              All content on this site is researched and verified against multiple primary sources before publication. 
-              We clearly distinguish between confirmed facts and community speculation, and we update our content 
-              whenever new information becomes available. Our affiliate recommendations are based solely on relevance 
-              to the Moose Boy discovery process — editorial content is never influenced by commercial relationships. 
-              If you spot an error or have additional information about Moose Boy, we welcome corrections.
+              We check everything against multiple sources before publishing. When something is confirmed fact, we say so. When it's community speculation, we say that too. If you spot something wrong or have new info about Moose Boy, we'd love to hear about it.
             </p>
           </div>
         </div>

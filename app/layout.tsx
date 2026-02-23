@@ -10,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "I'm Moose Boy | The Legendary Silicon Graffiti Hidden Inside Nokia 5190 Chips",
   description:
-    "I'm Moose Boy — discover the famous microscopic silicon graffiti doodle hidden inside Nokia 5190 chips. Learn about the 2022 community discovery hunt, how to find Moose Boy yourself, silicon graffiti history, and where to buy authentic Nokia 5190 phones.",
+    "A Motorola engineer hid a tiny drawing of a kid with moose antlers inside Nokia 5190 chips. Nobody found it for years. Here's the full story, the 2022 hunt, how to find it yourself, and where to get a Nokia 5190.",
   keywords:
     "Moose Boy, Nokia 5190, silicon graffiti, chip Easter egg, Motorola RF integrated circuit, microchip art, vintage Nokia, mobile phone history, silicon doodle, Big Boy mascot, chip art, semiconductor Easter eggs, technology history, 1998 Nokia",
   authors: [{ name: "I Am Moose Boy", url: "https://immooseboy.com" }],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "I'm Moose Boy | The Legendary Silicon Graffiti Inside Nokia 5190",
     description:
-      "Discover the microscopic Moose Boy doodle hidden inside Nokia 5190 chips - one of tech history's most fascinating Easter eggs.",
+      "A tiny drawing of a kid with moose antlers, hidden inside millions of Nokia 5190 chips. Here's how the internet found it.",
     type: "website",
     url: "https://immooseboy.com",
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "I'm Moose Boy | The Legendary Silicon Graffiti Inside Nokia 5190",
     description:
-      "Discover the microscopic Moose Boy doodle hidden inside Nokia 5190 chips - one of tech history's most fascinating Easter eggs.",
+      "A tiny drawing of a kid with moose antlers, hidden inside millions of Nokia 5190 chips. Here's how the internet found it.",
     images: ["https://immooseboy.com/images/mooseboy-character.webp"],
   },
   robots: {
@@ -85,7 +85,7 @@ const articleSchema = {
   "@type": "WebPage",
   name: "I'm Moose Boy | The Legendary Silicon Graffiti Hidden Inside Nokia 5190 Chips",
   description:
-    "Comprehensive guide to Moose Boy, the famous microscopic doodle hidden inside Nokia 5190 chips. Includes the 2022 discovery story, silicon graffiti history, and collector information.",
+    "The full story of Moose Boy — the tiny doodle a Motorola engineer hid inside Nokia 5190 chips. Covers the 2022 discovery hunt, silicon graffiti history, and how to find it yourself.",
   url: "https://immooseboy.com",
   inLanguage: "en-US",
   mainEntity: {
@@ -161,7 +161,7 @@ const faqSchema = {
       name: "What is Moose Boy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'Moose Boy is a microscopic piece of silicon graffiti — a tiny doodle of a boy with moose antlers holding a sign that reads "IM MOOSE BOY" — hidden inside the Motorola RF integrated circuit of certain Nokia 5190 mobile phones manufactured in the late 1990s.',
+        text: 'Moose Boy is a tiny drawing hidden on a chip inside certain Nokia 5190 phones. It shows a kid with moose antlers holding a sign that says "IM MOOSE BOY." A Motorola chip engineer snuck it in during production in the late 1990s. You can\'t see it without a microscope.',
       },
     },
     {
@@ -169,7 +169,7 @@ const faqSchema = {
       name: "Where exactly is Moose Boy hidden?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Moose Boy is located on a chip inside the crystal oscillator component of the Nokia 5190 phone's PCB. It's not visible on the main circuit board — you have to remove and open the crystal oscillator casing to access the chip, then use a microscope at 100-200x magnification to see the doodle.",
+        text: "It's not on the main circuit board — that's what threw people off for so long. It's on a chip inside the crystal oscillator, which is a small metal component on the PCB. You have to desolder the oscillator, crack open the metal casing, then look at the chip inside under 100-200x magnification.",
       },
     },
     {
@@ -177,7 +177,7 @@ const faqSchema = {
       name: "Does every Nokia 5190 have Moose Boy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'No. Only certain production batches of the Nokia 5190 from the late 1990s contain the Moose Boy chip. Look for crystal oscillators with markings like "1284A", "13.0C", and date codes from 1998 (such as "9823"). Earlier production runs have a higher chance of containing the doodle.',
+        text: 'Nope. Only some production batches have it. Look for crystal oscillators marked "1284A", "13.0C", and date codes from 1998 (like "9823"). Earlier production runs seem to have the best odds. There\'s no guarantee even if you find the right markings.',
       },
     },
     {
@@ -185,7 +185,7 @@ const faqSchema = {
       name: "What is silicon graffiti?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Silicon graffiti (also called chip art or silicon doodling) is the practice of chip engineers hiding tiny artworks on semiconductor chips. These microscopic designs are created using the same photolithography process used for the chip's functional circuits. The tradition dates back decades but has become increasingly rare due to stricter corporate oversight and space constraints on modern chips.",
+        text: "It's basically chip engineers hiding tiny drawings on semiconductors. They use the same photolithography process that makes the functional circuits to sneak artwork into empty space on the chip. Engineers have been doing it for decades — you can find everything from cartoon characters to inside jokes. It's gotten rarer because modern chips don't have spare room and companies got strict about it.",
       },
     },
     {
@@ -193,7 +193,7 @@ const faqSchema = {
       name: "What tools do I need to find Moose Boy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You'll need a Nokia 5190 phone, a phone repair tool kit, precision tweezers, a soldering iron with desoldering pump, a precision razor blade, and most importantly a USB microscope or magnifying glass capable of at least 100-200x magnification. The process involves complete phone disassembly and opening the crystal oscillator housing.",
+        text: "A Nokia 5190, a phone repair kit, precision tweezers, a soldering iron with a desoldering pump, a razor blade, and most importantly a USB microscope that can do at least 100-200x magnification. You're going to fully disassemble the phone and crack open a tiny metal component, so steady hands help too.",
       },
     },
     {
@@ -201,7 +201,7 @@ const faqSchema = {
       name: "Who created Moose Boy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: 'Moose Boy was created by an anonymous chip engineer at Motorola. The artwork is believed to be based on a colleague or friend nicknamed "Moose," with artistic influence from the iconic Big Boy restaurant mascot. The exact identity of the artist has never been publicly confirmed.',
+        text: 'Nobody knows for sure. It was a Motorola chip engineer who never came forward publicly. The theory is that "Moose" was a nickname for a friend or coworker, and the art style is clearly inspired by the Big Boy restaurant mascot. Just with antlers.',
       },
     },
     {
@@ -209,7 +209,7 @@ const faqSchema = {
       name: "When was Moose Boy discovered?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "While the existence of Moose Boy was referenced in chip art archives for years, the serious community hunt to find and photograph it began in 2022. The breakthrough came when hunters realized it was hidden inside the crystal oscillator component — one layer deeper than initially expected — rather than being directly visible on the main PCB.",
+        text: "People had talked about it in chip art circles for years, but the real community hunt started in 2022. The big breakthrough was figuring out that it wasn't on the main PCB at all — it was one layer deeper, inside the crystal oscillator. That's why nobody could find it before.",
       },
     },
   ],

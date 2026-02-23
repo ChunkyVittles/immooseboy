@@ -48,7 +48,7 @@ export function ProductSection() {
               Find Authentic Nokia 5190 Phones
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-              Own a piece of mobile phone history and potentially discover the legendary Moose Boy hidden inside
+              Own a piece of phone history — and maybe find a tiny moose-antlered dude hiding inside
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export function ProductSection() {
               <CardHeader>
                 <CardTitle className="text-xl">Nokia 5190 Phone</CardTitle>
                 <CardDescription className="leading-relaxed">
-                  Find vintage Nokia 5190 phones from the late 1990s that may contain the legendary Moose Boy chip
+                  Vintage Nokia 5190 phones from the late '90s — some of these might have Moose Boy hiding inside
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex-1">

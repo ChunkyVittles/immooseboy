@@ -7,37 +7,37 @@ const faqs = [
   {
     question: "What is Moose Boy?",
     answer:
-      'Moose Boy is a microscopic piece of silicon graffiti — a tiny doodle of a boy with moose antlers holding a sign that reads "IM MOOSE BOY" — hidden inside the Motorola RF integrated circuit of certain Nokia 5190 mobile phones manufactured in the late 1990s.',
+      'Moose Boy is a tiny drawing hidden on a chip inside certain Nokia 5190 phones. It shows a kid with moose antlers holding a sign that says "IM MOOSE BOY." A Motorola chip engineer snuck it in during production in the late 1990s. You can\'t see it without a microscope.',
   },
   {
     question: "Where exactly is Moose Boy hidden?",
     answer:
-      "Moose Boy is located on a chip inside the crystal oscillator component of the Nokia 5190 phone's PCB. It's not visible on the main circuit board — you have to remove and open the crystal oscillator casing to access the chip, then use a microscope at 100-200x magnification to see the doodle.",
+      "It's not on the main circuit board — that's what threw people off for so long. It's on a chip inside the crystal oscillator, which is a small metal component on the PCB. You have to desolder the oscillator, crack open the metal casing, then look at the chip inside under 100-200x magnification.",
   },
   {
     question: "Does every Nokia 5190 have Moose Boy?",
     answer:
-      'No. Only certain production batches of the Nokia 5190 from the late 1990s contain the Moose Boy chip. Look for crystal oscillators with markings like "1284A", "13.0C", and date codes from 1998 (such as "9823"). Earlier production runs have a higher chance of containing the doodle.',
+      'Nope. Only some production batches have it. Look for crystal oscillators marked "1284A", "13.0C", and date codes from 1998 (like "9823"). Earlier production runs seem to have the best odds. There\'s no guarantee even if you find the right markings.',
   },
   {
     question: "What is silicon graffiti?",
     answer:
-      "Silicon graffiti (also called chip art or silicon doodling) is the practice of chip engineers hiding tiny artworks on semiconductor chips. These microscopic designs are created using the same photolithography process used for the chip's functional circuits. The tradition dates back decades but has become increasingly rare due to stricter corporate oversight and space constraints on modern chips.",
+      "It's basically chip engineers hiding tiny drawings on semiconductors. They'd use the same photolithography process that makes the functional circuits to sneak artwork into empty space on the chip. Engineers have been doing it for decades — you can find everything from cartoon characters to inside jokes. It's gotten rarer though, because modern chips don't have spare room and companies got strict about it.",
   },
   {
     question: "What tools do I need to find Moose Boy?",
     answer:
-      "You'll need a Nokia 5190 phone, a phone repair tool kit, precision tweezers, a soldering iron with desoldering pump, a precision razor blade, and most importantly a USB microscope or magnifying glass capable of at least 100-200x magnification. The process involves complete phone disassembly and opening the crystal oscillator housing.",
+      "A Nokia 5190 (obviously), a phone repair kit, precision tweezers, a soldering iron with a desoldering pump, a razor blade, and — most importantly — a USB microscope that can do at least 100-200x magnification. You're going to fully disassemble the phone and crack open a tiny metal component, so steady hands help too.",
   },
   {
     question: "Who created Moose Boy?",
     answer:
-      'Moose Boy was created by an anonymous chip engineer at Motorola. The artwork is believed to be based on a colleague or friend nicknamed "Moose," with artistic influence from the iconic Big Boy restaurant mascot. The exact identity of the artist has never been publicly confirmed.',
+      'Nobody knows for sure. It was a Motorola chip engineer who never came forward publicly. The theory is that "Moose" was a nickname for a friend or coworker, and the art style is clearly inspired by the Big Boy restaurant mascot. Just with antlers.',
   },
   {
     question: "When was Moose Boy discovered?",
     answer:
-      "While the existence of Moose Boy was referenced in chip art archives for years, the serious community hunt to find and photograph it began in 2022. The breakthrough came when hunters realized it was hidden inside the crystal oscillator component — one layer deeper than initially expected — rather than being directly visible on the main PCB.",
+      "People had talked about it in chip art circles for years, but the real community hunt started in 2022. The big breakthrough was figuring out that it wasn't on the main PCB at all — it was one layer deeper, inside the crystal oscillator. That's why nobody could find it before.",
   },
 ]
 
@@ -53,7 +53,7 @@ export function FaqSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-muted-foreground">
-            Everything you need to know about the legendary Moose Boy silicon graffiti
+            Quick answers about Moose Boy, the Nokia 5190, and silicon graffiti
           </p>
         </div>
 

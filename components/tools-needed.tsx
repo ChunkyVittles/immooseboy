@@ -5,50 +5,49 @@ import { ExternalLink, AlertTriangle, Info } from "lucide-react"
 const tools = [
   {
     name: "Nokia 5190 Phone",
-    description: "The iconic phone that might house the Moose Boy chip - seek out late 1990s models",
+    description: "The phone that might have Moose Boy inside — look for late '90s models",
     link: "https://www.ebay.com/sch/i.html?_nkw=nokia+5190&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "📱",
   },
   {
     name: "Phone Repair Tool Kit",
-    description: "Miniature screwdrivers and opening implements specially designed for dismantling mobile phones",
+    description: "Tiny screwdrivers and pry tools made for taking apart mobile phones",
     link: "https://www.ebay.com/sch/i.html?_nkw=phone+repair+tool+kit+screwdriver&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🛠️",
   },
   {
     name: "Precision Tweezers",
-    description: "Critical for manipulating microscopic components and chips without causing damage",
+    description: "You'll need these to handle tiny chips without dropping or crushing them",
     link: "https://www.ebay.com/sch/i.html?_nkw=precision+tweezers+electronics&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🔧",
   },
   {
     name: "Soldering Iron & Desoldering Pump",
-    description:
-      "Necessary to carefully remove solder and detach components from the PCB without harming adjacent parts",
+    description: "For removing solder and detaching the crystal oscillator from the PCB without wrecking anything nearby",
     link: "https://www.ebay.com/sch/i.html?_nkw=soldering+iron+desoldering+pump+kit&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🔥",
   },
   {
     name: "USB Microscope",
-    description: "Vital for observing the microscopic Moose Boy doodle on the chip surface",
+    description: "The only way you're seeing Moose Boy — you need at least 100-200x magnification",
     link: "https://www.ebay.com/sch/i.html?_nkw=usb+digital+microscope&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🔬",
   },
   {
     name: "Vice Grip",
-    description: "Firmly holds the phone and parts while you operate",
+    description: "Holds the board steady while you work — your hands will be busy enough",
     link: "https://www.ebay.com/sch/i.html?_nkw=mini+vice+grip+electronics&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🗜️",
   },
   {
     name: "Precision Razor Blade",
-    description: "Assists in cautiously separating components and eliminating adhesives",
+    description: "For carefully prying open the oscillator housing — go slow",
     link: "https://www.ebay.com/sch/i.html?_nkw=precision+razor+blade+craft&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🔪",
   },
   {
     name: "Desk Magnifying Glass",
-    description: "Desktop-mounted magnifier with illumination for detailed inspection tasks",
+    description: "A mounted magnifier with a built-in light — great for the detail work",
     link: "https://www.ebay.com/sch/i.html?_nkw=desk+magnifying+glass+lamp&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1",
     icon: "🔍",
   },
@@ -60,12 +59,10 @@ export function ToolsNeeded() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-            Essential Tools for Your Moose Boy Quest
+            What You Need to Hunt for Moose Boy
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Ready for an adventure? Discovering Moose Boy demands meticulous disassembly and microscopic analysis along
-            with substantial patience. Here are the critical tools you'll require for your silicon graffiti expedition.
-            Success cannot be guaranteed!
+            Fair warning: this isn't easy. You're tearing apart a phone, cracking open a tiny metal component, and hunting for a microscopic drawing. You need patience, steady hands, and the right gear. No guarantees you'll find it.
           </p>
           <div className="mt-4 p-4 bg-muted border border-border rounded-lg max-w-3xl mx-auto">
             <div className="flex items-start gap-2">
@@ -107,7 +104,7 @@ export function ToolsNeeded() {
 
         <div className="mt-16 max-w-4xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center text-foreground">
-            Complete Guide to Discovering Moose Boy
+            How to Find Moose Boy: Step by Step
           </h3>
 
           <div className="space-y-6">
@@ -118,20 +115,18 @@ export function ToolsNeeded() {
                     1
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Acquire a Nokia 5190</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Get a Nokia 5190</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Begin by securing a{" "}
+                      Start by finding a{" "}
                       <a
                         href="https://www.ebay.com/sch/i.html?_nkw=nokia+5190+vintage+1998+1999&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339134999&toolid=11800&mkevt=1"
                         target="_blank"
                         rel="noopener noreferrer sponsored"
                         className="text-accent hover:underline font-medium"
                       >
-                        Nokia 5190 phone
+                        Nokia 5190
                       </a>
-                      . Not every unit houses Moose Boy—the chip only appeared in select production batches from earlier
-                      manufacturing runs. Seek phones produced in the late 1990s for the highest probability of locating
-                      the doodle.
+                      . Not every one has Moose Boy — it only showed up in certain production batches. Earlier manufacturing runs from the late '90s give you the best shot.
                     </p>
                   </div>
                 </div>
@@ -145,11 +140,9 @@ export function ToolsNeeded() {
                     2
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Disassemble the Phone</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Take the Phone Apart</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Methodically remove the rear cover, battery, and faceplate. Utilize your precision instruments to
-                      unscrew and detach the phone's housing. Capture photos at every stage so you can rebuild it later
-                      if wanted. Proceed slowly to prevent damaging plastic fasteners.
+                      Pop off the back cover, battery, and faceplate. Use your small screwdrivers to remove the screws and open the housing. Take photos as you go — you'll want to remember what went where. Go slow so you don't snap the plastic clips.
                     </p>
                   </div>
                 </div>
@@ -163,11 +156,9 @@ export function ToolsNeeded() {
                     3
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Locate the Crystal Oscillator</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Find the Crystal Oscillator</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      After you gain access to the main PCB (printed circuit board), pinpoint the crystal oscillator
-                      part—a compact silver rectangular or square metal container, usually marked with frequency
-                      specifications. Moose Boy is concealed on a Motorola RF chip within this oscillator casing.
+                      Once you're down to the main circuit board, look for the crystal oscillator — it's a small silver rectangular metal can, usually stamped with frequency info. Moose Boy is hiding on a Motorola RF chip inside that little metal box.
                     </p>
                   </div>
                 </div>
@@ -181,13 +172,9 @@ export function ToolsNeeded() {
                     4
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Remove the Oscillator</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Desolder and Remove It</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Fasten the PCB in your vice grip. Warm your soldering iron to approximately 350-400°C (660-750°F).
-                      Place the tip onto each solder connection on the crystal oscillator while concurrently using the
-                      desoldering pump to remove the liquefied solder. After all connections are cleared, use precision
-                      tweezers to carefully lift the part from the board. Operate patiently and avoid applying too much
-                      heat to prevent PCB harm.
+                      Clamp the PCB in your vice grip. Heat up the soldering iron to around 350-400°C (660-750°F). Touch it to each solder joint on the oscillator and suck up the melted solder with the desoldering pump. Once all the joints are clear, lift it off carefully with tweezers. Take your time — too much heat will damage the board.
                     </p>
                   </div>
                 </div>
@@ -201,11 +188,9 @@ export function ToolsNeeded() {
                     5
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Open the Oscillator Housing</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Crack Open the Oscillator</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      The crystal oscillator features a metal shell safeguarding the chip within. Using your precision
-                      razor blade and tweezers, cautiously pry open or slice through the metal enclosure. This demands
-                      delicate work—the chip inside is minuscule and brittle. Exercise patience.
+                      The crystal oscillator has a metal shell protecting the chip inside. Use your razor blade and tweezers to carefully pry it open or cut through the casing. Be gentle — the chip inside is tiny and fragile.
                     </p>
                   </div>
                 </div>
@@ -219,12 +204,9 @@ export function ToolsNeeded() {
                     6
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Examine the Chip Under Magnification</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Put It Under the Microscope</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      With the chip revealed, position it beneath your USB microscope or desk magnifying glass with
-                      adequate lighting. Moose Boy is microscopic—you'll require at least 100-200x magnification to
-                      observe it distinctly. Search for the doodle on the silicon surface: a boy figure with moose
-                      antlers clutching a sign that reads "IM MOOSE BOY."
+                      This is the moment. Place the chip under your USB microscope with good lighting. You'll need at least 100-200x magnification to see anything. Scan the silicon surface and look for the drawing — a little figure with moose antlers holding a sign that says "IM MOOSE BOY."
                     </p>
                   </div>
                 </div>
@@ -238,12 +220,9 @@ export function ToolsNeeded() {
                     7
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-2 text-foreground">Document Your Discovery</h4>
+                    <h4 className="text-lg font-semibold mb-2 text-foreground">Share What You Find</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      If you successfully locate Moose Boy, capture photos or video through your microscope! This
-                      represents a scarce piece of engineering heritage. Numerous collectors and tech fans have
-                      investigated for years to authenticate this silicon graffiti legend. Distribute your findings with
-                      the community!
+                      If you find him — take photos! Take video! This is a rare piece of engineering history. People have been hunting for this thing for years. If you find it, share it — the community goes nuts for these discoveries.
                     </p>
                   </div>
                 </div>
@@ -256,26 +235,22 @@ export function ToolsNeeded() {
           <div className="flex items-start gap-3">
             <AlertTriangle className="h-6 w-6 text-[oklch(0.4_0.15_27)] flex-shrink-0 mt-1" />
             <div>
-              <h4 className="font-semibold text-[oklch(0.4_0.15_27)] mb-2">Safety and Legal Cautions</h4>
+              <h4 className="font-semibold text-[oklch(0.4_0.15_27)] mb-2">Before You Start</h4>
               <ul className="text-sm text-foreground/80 space-y-2 leading-relaxed">
                 <li>
-                  • Soldering irons achieve very high temperatures and can inflict serious burns. Always employ proper
-                  safety gear and operate in a properly ventilated space.
+                  • Soldering irons get extremely hot. Wear safety gear and work in a ventilated area.
                 </li>
                 <li>
-                  • Sharp implements like razor blades can result in injury. Manage with maximum care and keep away from
-                  children.
+                  • Razor blades are sharp (obviously). Handle with care and keep away from kids.
                 </li>
                 <li>
-                  • Not every Nokia 5190 phone houses the Moose Boy chip—success cannot be assured even with meticulous
-                  work.
+                  • Not every Nokia 5190 has Moose Boy. You might do all this and come up empty. That's the gamble.
                 </li>
                 <li>
-                  • Dismantling electronic devices can expose you to tiny parts and substances. Operate carefully and
-                  responsibly.
+                  • Taking apart electronics exposes you to small parts and materials. Be careful.
                 </li>
                 <li>
-                  • This process irreversibly destroys the phone's functionality—use only salvage or broken units.
+                  • Fair warning — you're going to destroy the phone doing this. Use a broken one.
                 </li>
               </ul>
             </div>

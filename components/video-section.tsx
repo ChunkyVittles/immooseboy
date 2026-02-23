@@ -9,7 +9,7 @@ export function VideoSection() {
             Watch Moose Boy in Action
           </h2>
           <p className="text-lg text-center text-muted-foreground mb-10 leading-relaxed">
-            See the legendary silicon graffiti brought to life and revealed under microscope magnification
+            See the actual doodle under a microscope and watch our animated take on what Moose Boy gets up to inside the chip
           </p>
 
           {/* New Animated Video */}
@@ -91,9 +91,8 @@ export function VideoSection() {
 
             <div className="mt-4 text-center">
               <p className="text-sm text-muted-foreground leading-relaxed">
-                This video captures the painstaking process of locating and photographing the microscopic Moose Boy
-                doodle on the Motorola RF chip inside a Nokia 5190 phone. The discovery required specialized equipment
-                and precise knowledge of where to look on the silicon die.
+                This is the real deal — someone actually tracked down the Moose Boy doodle on a Motorola RF chip
+                inside a Nokia 5190 and caught it on camera. You can see just how tiny and detailed it is.
               </p>
             </div>
           </div>

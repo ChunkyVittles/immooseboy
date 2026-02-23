@@ -12,8 +12,7 @@ export function Footer() {
               <span className="text-lg font-bold font-mono">MOOSE BOY</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Preserving the story of one of tech history's most beloved Easter eggs and celebrating the human
-              creativity behind our technology.
+              The story of a tiny drawing hidden inside millions of phones — and the people who went looking for it.
             </p>
           </div>
 

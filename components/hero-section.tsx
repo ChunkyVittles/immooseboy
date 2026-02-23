@@ -19,10 +19,10 @@ export function HeroSection() {
             />
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">
-            I'm <span className="text-accent">Moose Boy</span>: The Legendary Silicon Graffiti
+            I'm <span className="text-accent">Moose Boy</span>: The Tiny Drawing Hidden in Millions of Phones
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance leading-relaxed">
-            A microscopic masterpiece hidden inside millions of Nokia 5190 phones—the most famous silicon graffiti in tech history. I am Moose Boy — discover the legend.
+            Somewhere inside a Nokia 5190 chip, an engineer snuck in a microscopic doodle of a kid with moose antlers. Nobody noticed for years. Then the internet went looking for it.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
