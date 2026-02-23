@@ -1,8 +1,19 @@
 import type { Metadata } from 'next'
+import type { AnchorHTMLAttributes } from 'react'
 import Link from 'next/link'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import { getAllPostSlugs, getPostSource } from '@/lib/blog'
 import { AffiliateDisclosure } from '@/components/affiliate-disclosure'
+
+function MdxLink(props: AnchorHTMLAttributes<HTMLAnchorElement>) {
+  const href = props.href ?? ''
+  if (href.includes('ebay.com')) {
+    return <a {...props} rel="noopener noreferrer sponsored" target="_blank" />
+  }
+  return <a {...props} />
+}
+
+const mdxComponents = { a: MdxLink }
 
 export const dynamicParams = false
 
@@ -63,6 +74,7 @@ export default async function BlogPost({
   }>({
     source,
     options: { parseFrontmatter: true },
+    components: mdxComponents,
   })
 
   const articleSchema = {
