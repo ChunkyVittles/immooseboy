@@ -54,6 +54,9 @@ export function Header() {
           <Link href="#shop" className="text-sm font-medium hover:text-accent transition-colors">
             Nokia 5190
           </Link>
+          <Link href="/blog" className="text-sm font-medium hover:text-accent transition-colors">
+            Blog
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -92,6 +95,13 @@ export function Header() {
               onClick={handleLinkClick}
             >
               Nokia 5190
+            </Link>
+            <Link
+              href="/blog"
+              className="text-base font-medium hover:text-accent transition-colors py-2"
+              onClick={handleLinkClick}
+            >
+              Blog
             </Link>
           </nav>
         </div>

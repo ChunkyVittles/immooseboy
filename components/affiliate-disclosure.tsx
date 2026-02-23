@@ -1,15 +1,16 @@
-import { AlertCircle } from "lucide-react"
-import { Alert, AlertDescription } from "@/components/ui/alert"
+import Link from "next/link"
 
 export function AffiliateDisclosure() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <Alert className="max-w-4xl mx-auto bg-muted/50">
-        <AlertCircle className="h-4 w-4" />
-        <AlertDescription className="text-sm leading-relaxed">
-          As an eBay Partner, we may earn a commission when you purchase through our links at no additional cost to you.
-        </AlertDescription>
-      </Alert>
+    <div className="border-b border-border bg-muted/50">
+      <div className="container mx-auto px-4 py-2 text-center">
+        <p className="text-xs text-muted-foreground">
+          If you click on affiliate links on this website and make a purchase, we may earn a commission at no additional cost to you.{" "}
+          <Link href="/privacy" className="underline hover:text-accent transition-colors">
+            Privacy Policy
+          </Link>
+        </p>
+      </div>
     </div>
   )
 }

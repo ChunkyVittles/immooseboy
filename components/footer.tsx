@@ -34,12 +34,22 @@ export function Footer() {
                   Shop Nokia 5190
                 </Link>
               </li>
+              <li>
+                <Link href="/blog" className="text-muted-foreground hover:text-accent transition-colors">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold mb-4">Legal</h3>
             <ul className="space-y-2 text-sm text-muted-foreground leading-relaxed">
+              <li>
+                <Link href="/privacy" className="hover:text-accent transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
               <li>
                 <Link href="/sitemap.xml" className="hover:text-accent transition-colors">
                   Sitemap

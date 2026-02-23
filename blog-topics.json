@@ -1,0 +1,11 @@
+{
+  "_comment": "Topic queue for BullBotics cron job. When queue < 5, cron reads the full front page of the site, sends it to the API with VOICE_RULES, and generates 8 radiating topics (related to the site's core content but branching outward). Each topic becomes an MDX blog post that gets committed and auto-deployed via GitHub Actions.",
+  "site_keyword": "im moose boy",
+  "published": [
+    "engineers-hiding-drawings-inside-computer-chips",
+    "nokia-ran-the-world-then-vanished",
+    "getting-started-with-usb-microscopes"
+  ],
+  "queue": [],
+  "last_generated": null
+}
