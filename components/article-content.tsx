@@ -132,7 +132,7 @@ export function ArticleContent() {
             </h4>
             <div className="flex flex-col md:flex-row gap-6 items-start">
               <Image
-                src="/images/motorola-chip-markings.png"
+                src="/images/motorola-chip-markings.webp"
                 alt="Motorola crystal oscillator chip with markings 1284A, 13.0 C, Motorola logo, and date code 9823"
                 width={192}
                 height={192}
