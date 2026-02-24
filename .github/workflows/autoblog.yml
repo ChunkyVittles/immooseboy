@@ -1,0 +1,52 @@
+name: Auto Blog Post
+
+on:
+  schedule:
+    # Every 6 days at 2pm UTC
+    - cron: '0 14 */6 * *'
+  workflow_dispatch:
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Clone factory repo (for voice rules + generator)
+        uses: actions/checkout@v4
+        with:
+          repository: ChunkyVittles/BullBotics
+          path: factory
+          token: ${{ secrets.FACTORY_PAT }}
+
+      - name: Generate blog post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd factory/backend
+          python -m app.services.blog_generator --site-dir $GITHUB_WORKSPACE
+
+      - name: Check for new content
+        id: changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "BullBotics Autoblog"
+          git config user.email "autoblog@bullbotics.com"
+          git commit -m "blog: auto-generated post $(date -u +%Y-%m-%d)"
+          git push

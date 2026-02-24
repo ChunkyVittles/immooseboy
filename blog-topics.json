@@ -4,8 +4,17 @@
   "published": [
     "engineers-hiding-drawings-inside-computer-chips",
     "nokia-ran-the-world-then-vanished",
-    "getting-started-with-usb-microscopes"
+    "getting-started-with-usb-microscopes",
+    "how-microscopic-creatures-live-on-your-smartphone-screen"
   ],
-  "queue": [],
-  "last_generated": null
+  "queue": [
+    "The Hidden World Inside a Mechanical Watch Movement",
+    "DIY: Photographing Snowflakes Under Magnification",
+    "Why Some Insects Have Rainbow-Colored Wings Under a Microscope",
+    "Comparing Counterfeit vs Genuine Electronics at 200x Magnification",
+    "The Microscopic Patterns That Make Velcro Work",
+    "How to Clean and Maintain Your Digital Microscope",
+    "What a Drop of Pond Water Reveals Under Magnification"
+  ],
+  "last_generated": "2026-02-24T08:42:00.315813+00:00"
 }
