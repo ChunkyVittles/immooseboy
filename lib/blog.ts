@@ -18,6 +18,7 @@ export interface BlogPostEntry {
 const BLOG_DIR = path.join(process.cwd(), 'content', 'blog')
 
 export function getAllPosts(): BlogPostEntry[] {
+  if (!fs.existsSync(BLOG_DIR)) return []
   const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.mdx'))
 
   const posts = files.map(filename => {
@@ -41,6 +42,7 @@ export function getAllPosts(): BlogPostEntry[] {
 }
 
 export function getAllPostSlugs(): string[] {
+  if (!fs.existsSync(BLOG_DIR)) return []
   return fs
     .readdirSync(BLOG_DIR)
     .filter(f => f.endsWith('.mdx'))
