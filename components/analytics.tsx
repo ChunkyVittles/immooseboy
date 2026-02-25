@@ -113,11 +113,20 @@ export function Analytics({
     }
 
     // WebSocket for live presence
-    // Disabled until api.bullbotics.com WebSocket endpoint is live.
-    // Attempting connection to a non-existent endpoint logs a console
-    // network error that cannot be suppressed from JS, costing Best
-    // Practices points in Lighthouse.
-    const connectWs = () => {}
+    const connectWs = () => {
+      try {
+        ws = new WebSocket(wsUrl)
+        ws.onclose = () => {
+          // Reconnect after 10 seconds
+          setTimeout(connectWs, 10000)
+        }
+        ws.onerror = () => {
+          ws?.close()
+        }
+      } catch {
+        // Silently fail if WebSocket connection fails
+      }
+    }
 
     // Heartbeat
     const heartbeatInterval = setInterval(() => {

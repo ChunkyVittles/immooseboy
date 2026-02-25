@@ -17,6 +17,9 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          NEXT_PUBLIC_ANALYTICS_URL: https://bullbotics.com
+          NEXT_PUBLIC_SITE_ID: im-moose-boy
 
       - uses: cloudflare/wrangler-action@v3
         with:
